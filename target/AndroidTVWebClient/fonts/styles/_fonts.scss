@@ -1,0 +1,94 @@
+@font-face {
+	font-family: "AndroidTVIconFont";
+	src: url('../fonts/AndroidTVIconFont.eot');
+	src: url('../fonts/AndroidTVIconFont.eot?#iefix') format('eot'),
+		url('../fonts/AndroidTVIconFont.woff2') format('woff2'),
+		url('../fonts/AndroidTVIconFont.woff') format('woff'),
+		url('../fonts/AndroidTVIconFont.ttf') format('truetype'),
+		url('../fonts/AndroidTVIconFont.svg#AndroidTVIconFont') format('svg');
+}
+
+.icon:before {
+	font-family: "AndroidTVIconFont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-clock:before {
+	content: "\E001";
+}
+
+.icon-close:before {
+	content: "\E002";
+}
+
+.icon-down:before {
+	content: "\E003";
+}
+
+.icon-edit:before {
+	content: "\E004";
+}
+
+.icon-folder:before {
+	content: "\E005";
+}
+
+.icon-grid:before {
+	content: "\E006";
+}
+
+.icon-home:before {
+	content: "\E007";
+}
+
+.icon-left:before {
+	content: "\E008";
+}
+
+.icon-list:before {
+	content: "\E009";
+}
+
+.icon-logout:before {
+	content: "\E00A";
+}
+
+.icon-plus:before {
+	content: "\E00B";
+}
+
+.icon-right:before {
+	content: "\E00C";
+}
+
+.icon-save:before {
+	content: "\E00D";
+}
+
+.icon-today:before {
+	content: "\E00E";
+}
+
+.icon-uEA01-trash:before {
+	content: "\E00F";
+}
+
+.icon-up:before {
+	content: "\E010";
+}
+
+.icon-upload:before {
+	content: "\E011";
+}
+
+.icon-video:before {
+	content: "\E012";
+}

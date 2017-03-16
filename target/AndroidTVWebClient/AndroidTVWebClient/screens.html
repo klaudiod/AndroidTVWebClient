@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TV Screens &#183; Forte Group Andriod TV Application</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Yeseva+One&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png" type="image">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="js/logic/authorization.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<aside>
+    <div class="aside-content animated fadeIn">
+        <h2>Android TV Application</h2>
+
+        <div class="list-group">
+            <a href="playlists.html" class="list-group-item"><span>Playlists</span></a>
+            <!-- <a href="content.html" class="list-group-item"><span>Content</span></a> -->
+            <a href="screens.html" class="list-group-item active"><span>TV Screens</span></a>
+        </div>
+    </div>
+    <div class="aside-footer">
+        <a href="new-playlist.jsp" class="btn btn-default animated fadeInUp"><span
+                class="hidden-xs">Create Playlist</span><span class="visible-xs"><span
+                class="icon icon-plus"></span></a>
+    </div>
+</aside>
+<section class="content">
+    <div class="content-header animated fadeIn">
+        <h1>TV Screens</h1>
+
+        <div class="actions">
+            <a href="index.html" id="logoutButton"><span>Log Out</span></a>
+        </div>
+    </div>
+    <div class="content-body animated fadeIn">
+        <table class="table table-hover screens-table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Playlist</th>
+                <th>Start time</th>
+                <th>Play</th>
+            </tr>
+            </thead>
+            <tbody>
+        </table>
+    </div>
+</section>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="js/bootstrap-notify.min.js"></script>
+<!-- <script src="js/autofill-event.js"></script> -->
+<script src="js/ui.js"></script>
+<script src="js/logic/screens.js"></script>
+</body>
+
+</html>
